@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/ivProducto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,12 +27,20 @@
 
     <TextView
         android:id="@+id/tvPrecio"
-        android:layout_width="197dp"
-        android:layout_height="57dp"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
         android:layout_marginTop="76dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginEnd="100dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="110dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
