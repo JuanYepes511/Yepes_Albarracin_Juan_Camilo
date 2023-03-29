@@ -94,3 +94,5 @@ public class AdaptadorPersonalizado extends RecyclerView.Adapter<AdaptadorPerson
         void onItemBtnEliminarClick (Producto miProducto, int posicion);
     }
 }
+
+
