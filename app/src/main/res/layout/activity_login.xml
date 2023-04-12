@@ -83,7 +83,7 @@
             android:layout_width="178dp"
             android:layout_height="45dp"
             android:background="@drawable/shape_button_login"
-            android:onClick="goToSecondActivity"
+            android:onClick="clickIniciarSesion"
             android:text="Iniciar Sesion "
             android:textAlignment="center"
             android:textColor="#000000"
